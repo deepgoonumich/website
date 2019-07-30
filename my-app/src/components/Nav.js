@@ -1,19 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import '../styles/Nav.css'
+
 function Nav () {
     return (
-        <nav>
-            <h3>Logo</h3>
+        <nav className ="nav">
+             <Link className ="nav-logo" to ="/">
+                 <p>logo</p>
+            </Link>
+
             <ul className = "nav-links">
-                <Link to ="/about">
-                    <li>About</li>
+                <Link className ="nav-style" to ="/about">
+                    <li>ABOUT</li>
                 </Link>
-                <Link to ="/Resume">
-                    <li>Resume</li>
+                <Link className ="nav-style" to ="/Resume">
+                    <li>RESUME</li>
                 </Link>
-                <Link to ="/Contact">
-                    <li>Contact</li>
+                <Link className ="nav-style" to ="/Contact">
+                    <li>CONTACT</li>
                 </Link>
             </ul>
         </nav>
