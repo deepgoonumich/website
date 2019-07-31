@@ -6,6 +6,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Resume from "./Resume";
 import Nav from "./Nav"
+import Footer from "./Footer"
 
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -15,7 +16,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <div className ="main-body">
+      <Router>
       <Nav /> 
       <div className ="content">
         <Switch>
@@ -25,7 +27,10 @@ function App() {
           <Route path ="/contact" component ={Contact}/>             
         </Switch>  
       </div> 
-    </Router>
+      </Router>
+      <Footer />
+    </div>
+    
   );
 }
 

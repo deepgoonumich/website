@@ -35,7 +35,6 @@
 }
 
 .nav-links {
-    padding-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +48,11 @@
     text-decoration: none;
 }
 
-.nav-logo{
+.nav-logo {
+    background-image: url(../resources/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 4.2em;
+    height: 3.2em;
 
 }

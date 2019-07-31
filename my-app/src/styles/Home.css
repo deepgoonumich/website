@@ -1,0 +1,18 @@
+.intro-header{
+    text-align: center;
+}
+.intro{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 40em;
+}
+.intro-pro-pic{
+    background-image: url(../resources/home-pic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25em;
+    height: 25em;
+    margin: auto; 
+    /* display: flex;
+    justify-content: center; */
+}

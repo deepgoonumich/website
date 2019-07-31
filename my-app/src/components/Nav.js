@@ -7,20 +7,22 @@ function Nav () {
     return (
         <nav className ="nav">
              <Link className ="nav-logo" to ="/">
-                 <p>logo</p>
             </Link>
 
-            <ul className = "nav-links">
+            <div className = "nav-links">
+                <Link className ="nav-style" to ="/">
+                    <p>HOME</p>
+                </Link>
                 <Link className ="nav-style" to ="/about">
-                    <li>ABOUT</li>
+                    <p>ABOUT</p>
                 </Link>
                 <Link className ="nav-style" to ="/Resume">
-                    <li>RESUME</li>
+                    <p>RÉSUMÉ</p>
                 </Link>
                 <Link className ="nav-style" to ="/Contact">
-                    <li>CONTACT</li>
+                    <p>CONTACT</p>
                 </Link>
-            </ul>
+            </div>
         </nav>
     )
 
