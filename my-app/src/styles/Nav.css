@@ -1,17 +1,4 @@
 .nav {
-    /*display: flex;
-    align-items: center;
-    background: gray;
-    color: white;
-    list-style: none;
-    width: 100%;
-    justify-content: space-around;
-    position: fixed;
-    top: 0;*/
-
-}
-
-.nav {
     overflow: hidden;
     background-color: rgba(217, 217, 217,0.5);
     position: fixed;
@@ -24,7 +11,7 @@
     display: block;
     color: bl;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2.5px 16px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -52,7 +39,7 @@
     background-image: url(../resources/logo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 4.2em;
+    width: 2.7em;
     height: 3.2em;
 
 }

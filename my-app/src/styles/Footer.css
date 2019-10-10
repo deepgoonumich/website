@@ -1,7 +1,33 @@
-.foot{
-    background-color:whitesmoke;
-    position: absolute;
+.social-container {
+    overflow: hidden;
+    background-color: rgba(217, 217, 217,0.5);
+    position: fixed;
+    padding: 10px 20px;
     bottom: 0;
-    height: 2.5 rem;
     width: 100%;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.github {
+  color: black;
+}
+
+a.facebook {
+  color: black;
+}
+
+a.linkedin {
+  color: black;
+}
+
+a.instagram {
+  color: black;
 }

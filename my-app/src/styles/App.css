@@ -1,5 +1,5 @@
 .content {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .main-body {
@@ -8,4 +8,9 @@
 body {
   background-color: peachpuff; 
   background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* min-height: 100%; */
+
 }
